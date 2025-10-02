@@ -18,6 +18,7 @@ public class two_sum {
     public static void main(String[] args) {
         int arr[] = {2,4,67,9,4,2,5};
         int target = 4;
+        //Thhis code is used to find two sum in an array.
         boolean s = twosum(arr, target);
         System.out.println(s);
     }
